@@ -1,0 +1,169 @@
+body
+{
+	background-color: #E3E3E3;
+	margin: 0;
+	padding: 0;
+	font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  	font-size: 15px;
+}
+h2
+{
+	padding: 30px;
+	text-align: center;
+	background-color: black;
+	color: white;
+	border: 2px solid black;
+	letter-spacing: 3px;
+}
+.registration
+{
+	width: 560px;
+	background-color: #FFFFFF;
+	height: 1250px;
+	margin: 0px auto;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	border-radius: 5px;
+	border: none;
+	box-shadow: 0px 3px 10px -2px lightgray;
+}
+.row
+{
+	margin-top: -20px;
+	padding: 30px;
+	width: 500px;
+	height: 350px;
+}
+h4
+{
+	color: #7ED321;
+}
+table tr td input
+{
+	background-color: #f9f9f9;
+    border: 1px solid #e5e5e5;
+    border-radius: 3px;
+    height: 53px;
+    margin-bottom: 13px;
+}
+table tr td input:focus
+{
+	outline: none;
+}
+.fleft
+{
+
+	float: left;
+	margin: 0px 5px 0px 0px;
+	border-radius: 2px;
+
+}
+
+/* ------ date of birth ----- */
+.row1
+{
+ 	width: 500px;
+ 	height: 75px;
+ 	padding: 30px;
+ }
+
+.row1 form table tr td input:focus
+{
+	border-color: #64AC15;
+	text-align: center;
+}
+form table tr td input[type="button"]:focus
+{
+	background-color: #7ED320;
+	color: white;
+}
+
+
+/*--- State City ---*/
+
+.row2
+{
+ 	width: 500px;
+ 	height: 75px;
+ 	padding: 30px;
+ }
+ table tr td select
+{
+    width: 230px;
+	height: 57px;
+	background-color: #f9f9f9;
+    border: 1px solid #e5e5e5;
+    border-radius: 3px;
+}
+
+/*------------- Address ------------*/
+.address
+{
+	width: 500px;
+ 	height: 120px;
+ 	padding: 30px; 
+}
+table tr td textarea:focus
+{
+	outline: none;
+}
+table tr td textarea
+{
+	background-color: #f9f9f9;
+	border: 2px solid #e5e5e5;
+	border-radius: 5px; 
+	box-shadow: 1px 2px 2px lightgray;
+}
+
+/* ---- Terms condition ----*/
+.terms
+{
+	margin-top: -15px;
+	padding: 30px;
+}
+input[type="checkbox"]
+{
+	width: 20px;
+	height: 20px;
+}
+
+p
+{
+	color: lightgray; 
+}
+
+/* ---- Register Button ----*/
+.button
+{
+	width: 500px;
+	height: 60px;
+	padding: 30px;
+}
+button
+{
+	width: 400px;
+	margin-left: 40px;
+	height: 50px;
+	margin-top: -15px;
+	background-color: #7ED321;
+	border: none;
+	color: white;
+	font-size: 25px;
+	letter-spacing: 3px;
+	
+}
+button:hover
+{
+	background-color: forestgreen;
+	color: white;
+}
+button:focus
+{
+	outline: none;
+}
+
+
+
+
+
+
