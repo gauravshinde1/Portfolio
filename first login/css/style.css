@@ -1,0 +1,106 @@
+body
+{
+	margin: 0;
+	padding: 0;
+	background-color: lightgray;
+	font-family: "Helvetica Neue", Helvetica, Timesnewroman, sans-serif;
+}
+.row
+{
+	width: 500px;
+	height: 750px;
+	background-color: white;
+	margin: 0px auto;
+	border-radius: 10px;
+	margin-top: 17px;
+	margin-bottom: 17px;
+}
+#grad {
+    background: linear-gradient(#7677FE, #B025EF);
+}
+form table tr td img
+{
+	width: 125px;
+	height: 125px;
+	padding-top: 50px;
+	margin-left: 180px;
+
+}
+form table tr td label
+{
+	 color: white; 
+	 font-size: 25px; 
+	 font-weight: bold; 
+	 margin-left: 200px;
+}
+
+   /* ------------ username password ------------*/
+   
+.row2
+{
+	padding: 55px;
+}
+form table tr td input
+{
+	background-color: transparent; 
+	border: none; 
+	color: #FBF9FE;
+	margin-left: 15px;
+	font-size: 17px;
+
+}
+form table tr td input:focus
+{
+	outline: none;
+}
+form table tr td i
+{
+	color: white; 
+}
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #FFFFFF;
+    opacity: 1; /* Firefox */
+    font-size: 17px;
+}
+input[type="checkbox"]
+{
+	width: 20px;
+	height: 20px;
+	margin-left: 0px;
+}
+p
+{
+	font-size: 15px;
+	color: #FFFFFF;
+}
+form table tr td button
+{
+	width: 120px; 
+	height: 55px; 
+	border-radius: 25px; 
+	border: none; 
+	background-color: #FFFFFF; 
+	margin-left: 135px;"
+}
+form table tr td button:hover
+{
+	background: linear-gradient(#B025EF, #7677FE);
+	color: white;
+	font-size: 15px;
+} 
+
+/*------------ forget password ----------*/
+
+.row3
+{
+	margin-left: 183px;
+}
+a
+{
+	text-decoration: none;
+	color: #FFFFFF;
+}
+#p
+{
+	margin-left: 140px;
+}
